@@ -7,4 +7,4 @@ def test(request):
     return HttpResponse("This is a_user test")
 
 def bweb(request):
-    return HttpResponse("This is b_user bweb")
+    return HttpResponse("This is b_user bweb! Done!")
