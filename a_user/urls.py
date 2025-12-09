@@ -22,6 +22,5 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', views.test, name='test'),
-    path('aweb/', views.aweb)
     path('bweb/', views.bweb, name='bweb')
 ]

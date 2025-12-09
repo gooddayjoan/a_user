@@ -6,7 +6,5 @@ from django.shortcuts import render, HttpResponse
 def test(request):
     return HttpResponse("This is a_user test")
 
-def aweb(request):
-    return HttpResponse("This is a_user aweb.")
 def bweb(request):
     return HttpResponse("This is b_user bweb! Done!")
